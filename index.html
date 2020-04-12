@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/main2.css">
+  
+	<title>HIV Young</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.5.22/dist/vue.js"></script>
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue-router/3.0.2/vue-router.min.js"></script>
+</head>
+
+
+<body>
+<main>
+<div id="app" class="container-fluid">
+<!-- router-view 是一个全局组件 可以直接使用 -->
+
+
+
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="index.html#/home">
+      <img src="images/logo.png" width="150"  class="d-inline-block align-top" alt="logo">
+    </a>
+  
+   <!--  HIV&AIDS -->
+
+  <div id="routerNav">
+<router-link to='/home'  tag='button' class="btn btn-light">Home</router-link>
+<router-link to='/about' tag='button' class="btn btn-light">About</router-link>
+<router-link to='/community' tag='button' class="btn btn-light">Community</router-link>
+<router-link to='/signup' tag='button' class="btn btn-light">Sign Up</router-link>
+	
+</div>
+</nav>
+
+
+
+
+<transition name="fade" mode="out-in">
+	<router-view></router-view>
+</transition>
+	
+
+	
+	<div id="footerArea">
+		<p>
+        &copy; 2020 HIV&AIDS website, Inc <span> Follow us on these social media.</span>
+        </p>
+
+    <div id=socialm>
+          <ul>
+            <li><img src="images/logo.png" alt=""></li>
+			<li> <img src="images/facebook.svg"> </li>
+			<li> <img src="images/google.svg"> </li>
+      <li> <img src="images/twitter.svg" alt=""></li>
+			</ul>
+    </div>
+	
+</div>
+	
+
+</main>
+
+
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
