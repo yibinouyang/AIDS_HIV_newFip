@@ -9,9 +9,156 @@ body .banner {
   margin: 0 auto;
 }
 body .banner img {
-  width: 470px;
+  width: 500px;
   text-align: center;
   margin: 0 auto;
+}
+body #detailvo1 {
+  background-color: #de57ac;
+  text-align: center;
+}
+body #com1p p {
+  width: 400px;
+  margin: 0 auto;
+  margin-left: 0px;
+  font-family: "Baloo Paaji 2", cursive;
+  font-size: 20px;
+}
+body #com1p h2 {
+  color: #04b2d9;
+  font-family: "Ubuntu", sans-serif;
+}
+body #com3p h2 {
+  color: #04b2d9;
+  font-family: "Ubuntu", sans-serif;
+}
+body #com2p {
+  background-color: #f28a2e;
+  width: 500px;
+  text-align: left;
+  margin: 0 auto;
+}
+body #com2p p {
+  width: 400px;
+  margin: 0 auto;
+  margin-left: 30px;
+  color: snow;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Baloo Paaji 2", cursive;
+}
+body #com2p h2 {
+  color: #ffffff;
+  font-family: "Ubuntu", sans-serif;
+}
+body #com2p img {
+  margin-right: 0px;
+  margin-top: 0px;
+}
+body .com3p {
+  background-color: #facc32;
+  width: 500px;
+  text-align: left;
+  margin: 0 auto;
+}
+body .com3p p {
+  width: 400px;
+  margin: 0 auto;
+  margin-left: 30px;
+  font-size: 24px;
+  margin-top: 30px;
+  color: aliceblue;
+  font-family: "Baloo Paaji 2", cursive;
+}
+body .com3p h3 {
+  text-align: center;
+  color: aliceblue;
+  font-family: "Ubuntu", sans-serif;
+}
+body .com3p h2 {
+  text-align: center;
+  color: aliceblue;
+  font-family: "Ubuntu", sans-serif;
+}
+body .com3p1 {
+  background-color: #de57ac;
+  width: 500px;
+  text-align: left;
+  margin: 0 auto;
+}
+body .com3p1 p {
+  width: 500px;
+  margin: 0 auto;
+  margin-left: 30px;
+  font-size: 20px;
+  margin-top: 30px;
+  color: aliceblue;
+  font-family: "Baloo Paaji 2", cursive;
+}
+body .com3p1 h3 {
+  text-align: center;
+  color: aliceblue;
+  font-family: "Ubuntu", sans-serif;
+}
+body .com3p1 h2 {
+  text-align: center;
+  color: aliceblue;
+}
+body .col {
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+}
+body .col h3 {
+  margin-left: 40px;
+  margin-top: 30px;
+  margin-right: 0px;
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+body .col p {
+  margin-left: 0px;
+  margin-top: 30px;
+  margin-right: 40px;
+  font-size: 18px;
+  width: 200px;
+  font-family: "Baloo Paaji 2", cursive;
+}
+body #com4p {
+  background-color: #f28a2e;
+  width: 500px;
+  text-align: left;
+  margin: 0 auto;
+}
+body #com4p p {
+  width: 400px;
+  margin: 0 auto;
+  margin-left: 0px;
+  color: snow;
+  font-size: 10px;
+  text-align: center;
+  font-family: "Baloo Paaji 2", cursive;
+}
+body #com4p h2 {
+  color: snow;
+  font-family: "Ubuntu", sans-serif;
+}
+body #com5p {
+  background-color: black;
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+}
+body #com5p p {
+  color: aliceblue;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+  font-family: "Baloo Paaji 2", cursive;
+}
+body video {
+  width: 400px;
+  text-align: center;
 }
 body #routerNav {
   width: 500px;
@@ -35,6 +182,7 @@ body .com3p p {
   text-align: center;
   font-size: 17px;
   color: white;
+  font-family: "Baloo Paaji 2", cursive;
 }
 body #mapTextB {
   top: 0px;
@@ -63,13 +211,70 @@ body #volunpart {
   width: 450px;
   text-align: center;
   margin: 0 auto;
-  background-color: #fea74a;
+  background-color: #ff816b;
   margin-top: 30px;
 }
 body #volunpart img {
   width: 450px;
   text-align: center;
   margin: 0 auto;
+}
+body .a1 {
+  width: 500px;
+  text-align: center;
+  display: inline;
+}
+body .a1 h2 {
+  font-family: "Baloo Paaji 2", cursive;
+  font-size: 30px;
+}
+body #aboutp4 {
+  background-color: #facc32;
+}
+body #aboutp4 h3 {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+}
+body #aboutp4 p {
+  text-align: center;
+  font-family: "Baloo Paaji 2", cursive;
+  font-size: 18px;
+}
+body #aboutp5 {
+  background-color: black;
+  width: 500px;
+}
+body #aboutp5 p {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 28px;
+  font-family: "Ubuntu", sans-serif;
+}
+body #a2 {
+  background-color: #ff816b;
+  width: 500px;
+}
+body #a2 p {
+  font-family: "Baloo Paaji 2", cursive;
+  font-size: 20px;
+  text-align: center;
+}
+body #aboutp2 {
+  background-color: #fea74a;
+}
+body #aboutp2 p {
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}
+body #a1 {
+  background-color: #fea74a;
+}
+body #a1 h2 {
+  font-family: "Baloo Paaji 2", cursive;
+  font-size: 28px;
+  text-align: center;
+  color: white;
 }
 body #footerArea {
   margin: 0 auto;
@@ -86,6 +291,7 @@ body #footerArea p {
 body #footerArea p span {
   color: #ffd900;
   font-size: 19px;
+  font-family: "Ubuntu", sans-serif;
 }
 body #footerArea #socialm {
   width: 500px;
@@ -194,13 +400,16 @@ body #footerArea #socialm ul li img {
     width: 600px;
     margin: 0 auto;
     margin-left: 0px;
+    font-family: "Baloo Paaji 2", cursive;
     font-size: 26px;
   }
   body #com1p h2 {
     color: #04b2d9;
+    font-family: "Ubuntu", sans-serif;
   }
   body #com3p h2 {
     color: #04b2d9;
+    font-family: "Ubuntu", sans-serif;
   }
   body #com2p {
     background-color: #f28a2e;
@@ -215,9 +424,11 @@ body #footerArea #socialm ul li img {
     color: snow;
     text-align: center;
     font-size: 20px;
+    font-family: "Baloo Paaji 2", cursive;
   }
   body #com2p h2 {
     color: #ffffff;
+    font-family: "Ubuntu", sans-serif;
   }
   body #com2p img {
     margin-right: 20px;
@@ -233,17 +444,20 @@ body #footerArea #socialm ul li img {
     width: 900px;
     margin: 0 auto;
     margin-left: 30px;
-    font-size: 20px;
+    font-size: 24px;
     margin-top: 30px;
     color: aliceblue;
+    font-family: "Baloo Paaji 2", cursive;
   }
   body .com3p h3 {
     text-align: center;
     color: aliceblue;
+    font-family: "Ubuntu", sans-serif;
   }
   body .com3p h2 {
     text-align: center;
     color: aliceblue;
+    font-family: "Ubuntu", sans-serif;
   }
   body .com3p1 {
     background-color: #de57ac;
@@ -255,13 +469,15 @@ body #footerArea #socialm ul li img {
     width: 990px;
     margin: 0 auto;
     margin-left: 30px;
-    font-size: 20px;
+    font-size: 28px;
     margin-top: 30px;
     color: aliceblue;
+    font-family: "Baloo Paaji 2", cursive;
   }
   body .com3p1 h3 {
     text-align: center;
     color: aliceblue;
+    font-family: "Ubuntu", sans-serif;
   }
   body .com3p1 h2 {
     text-align: center;
@@ -277,6 +493,7 @@ body #footerArea #socialm ul li img {
     margin-top: 30px;
     margin-right: 0px;
     font-size: 20px;
+    font-family: "Ubuntu", sans-serif;
   }
   body .col p {
     margin-left: 0px;
@@ -284,6 +501,7 @@ body #footerArea #socialm ul li img {
     margin-right: 40px;
     font-size: 20px;
     width: 200px;
+    font-family: "Baloo Paaji 2", cursive;
   }
   body #com4p {
     background-color: #f28a2e;
@@ -296,11 +514,13 @@ body #footerArea #socialm ul li img {
     margin: 0 auto;
     margin-left: 30px;
     color: snow;
-    font-size: 20px;
+    font-size: 10px;
     text-align: center;
+    font-family: "Baloo Paaji 2", cursive;
   }
   body #com4p h2 {
     color: snow;
+    font-family: "Ubuntu", sans-serif;
   }
   body #com5p {
     background-color: #282828;
@@ -313,6 +533,7 @@ body #footerArea #socialm ul li img {
     text-align: center;
     margin: 0 auto;
     font-size: 26px;
+    font-family: "Baloo Paaji 2", cursive;
   }
   body #comhead {
     text-align: center;
@@ -414,6 +635,7 @@ body #footerArea #socialm ul li img {
     font-size: 55px;
     margin-top: 50px;
     margin-left: 20px;
+    font-family: "Ubuntu", sans-serif;
   }
   body .a1 img {
     margin-left: 300px;
@@ -433,6 +655,7 @@ body #footerArea #socialm ul li img {
   body #a2 p {
     font-size: 28px;
     margin-left: 0px;
+    font-family: "Baloo Paaji 2", cursive;
   }
   body #a1 {
     display: flex;
@@ -447,6 +670,7 @@ body #footerArea #socialm ul li img {
     margin-top: 50px;
     margin-left: 300px;
     color: cornsilk;
+    font-family: "Ubuntu", sans-serif;
   }
   body #a1 img {
     margin-left: 20px;
@@ -462,6 +686,7 @@ body #footerArea #socialm ul li img {
     font-size: 33px;
     margin-bottom: 20px;
     color: cornsilk;
+    font-family: "Baloo Paaji 2", cursive;
   }
   body #aboutp3 {
     width: 1100px;
@@ -481,11 +706,13 @@ body #footerArea #socialm ul li img {
     text-align: right;
     font-size: 40px;
     margin-top: 20px;
+    font-family: "Ubuntu", sans-serif;
   }
   body #aboutp4 p {
     text-align: left;
     font-size: 26px;
     margin-left: 40px;
+    font-family: "Baloo Paaji 2", cursive;
   }
   body #aboutp5 {
     width: 1100px;
@@ -497,6 +724,7 @@ body #footerArea #socialm ul li img {
     font-size: 36px;
     text-align: center;
     color: white;
+    font-family: "Baloo Paaji 2", cursive;
   }
   body #videoPart {
     width: 1080px;
