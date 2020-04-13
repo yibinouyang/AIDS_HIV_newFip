@@ -1,56 +1,4 @@
 
-
-
-    let signupcomponent = {template:`<div id="signupArea">
-    
-        <div class="banner">
-          <img src="images/ccbanner.jpg">
-          </div>
-    <div class="container">
-    <div class="row">
-        <div class="col"> 
-        <form action="admin/signned_up_page.php"  method="post">
-        <h2>Join Us Now!</h2>
-    <fieldset style="width: 250px;"><br>        
-      <label>First Name:</label>
-      <input v-model="input.firstname" type="text" name="firstname"  required class="form-control">
-
-        <label>Last Name:</label>
-        <input v-model="input.lastname" type="text" name="lastname" required class="form-control">
-
-        <label>Email:</label>
-        <input v-model="input.email" type="email" name="email" required class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" > 
-
-        <label>Country:</label>
-        <input v-model="input.country" type="text" name="country" required class="form-control">  
-    </fieldset>
-        <br>
-        <button type="submit" class="btn  btn-secondary btn-lg">Go!</button>
-        
-    </form></div>
-    </div></div>
-    <br><br>
-    <div id="context">
-  
-    <p>Thank you for your interest in our progressive educational platform. <br>
-    We look forward to providing you current and accurate information <br>
-    about HIV/AIDS, Harm Reduction, and Hepatitis C. Due to the high <br>
-    volume of presentation requests we receive, we recommend you submit <br>
-    your request at least 2 weeks prior to the proposed presentation date.<br></p><br>
-    <h3>Address:  #30-186 King Street, London, ON, N6A 1C7<br>
-    Phone:  519-434-1601 <br>
-    Email:  info@hivaidsconnection.ca<br>
-    Fax:  519-434-1843<br></h3></div>
-  </div>`,
-
-        data() {return {input: {firstname: "", lastname: "", email:"",country:""}}},
-        methods:{
-        }
-
-
-      };
-
-
     let homecomponent = {template:`<div>
         
     <div class="banner">
@@ -237,7 +185,7 @@
         </div>
         <div id="a2">
         <img src="images/group.jpg" style="width:500px">
-        <P><br><br>We are community-inspired and dedicated to<br> positively impacting the lives of individuals<br> and diverse communities living with, at-risk for,<br> or affected by HIV/AIDS and Hepatitis C (HCV).</p>
+        <P><br>We are community-inspired and dedicated to<br> positively impacting the lives of individuals<br> and diverse communities living with, at-risk for,<br> or affected by HIV/AIDS and Hepatitis C (HCV).</p>
         </div>
   
         <br><br>
@@ -287,7 +235,6 @@
 
     //path 映射表
     let routes =[
-      {path:'/signup', component:signupcomponent},
       {path:'/home', component:homecomponent},
       {path:'/community', component:communitycomponent},
       {path:'/about', component:aboutcomponent},
